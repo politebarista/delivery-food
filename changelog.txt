@@ -1,1 +1,5 @@
-1.0 - Pre-Alpha version  \\ Current Version
+0.1 - Pre-Alpha version
+
+0.1.1 \\ Current Version
+-Added animations to accessible pages
+-Added shop-basket to accessible pages
