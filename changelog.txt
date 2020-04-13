@@ -1,5 +1,9 @@
 0.1 - Pre-Alpha version
 
-0.1.1 \\ Current Version
+0.1.1
 -Added animations to accessible pages
 -Added shop-basket to accessible pages
+
+0.1.2  \\ Current Version
+-Basket adapted for devices
+-Minor design changes
