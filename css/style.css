@@ -361,6 +361,11 @@ footer {
         background-size: 1100px;
     }
 }
+@media (max-width: 1125px) {
+    .container {
+        width: 90%;
+    }
+}
 @media (max-width:992px) {
     .container {
         max-width: 750px;
@@ -378,10 +383,28 @@ footer {
     .footer-link {
         font-size: 18px;
     }
+    .food-row {
+        flex-wrap: wrap;
+    }
+    .food-price {
+        margin: 0;
+    }
+    .food-counter {
+        margin-top: 5px;
+    }
+    .modal-footer {
+        display: grid;
+        width: 320px;
+        margin-left: 222px;
+    }
+    .modal-pricetag {
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
 @media (max-width: 768px) {
     .container {
-        max-width: 560px;
+        max-width: 680px;
     }
     .card-info {
         flex-wrap: wrap;
@@ -397,6 +420,18 @@ footer {
     .promo-title {
         font-size: 24px;
         line-height: 1.4;
+    }
+    .modal-dialog {
+        max-height: 640px;
+    }
+    .modal-body {
+        margin-bottom: 30px;
+    }
+    .food-counter {
+        margin: 0;
+    }
+    .modal-footer {
+        margin: 0 194px;
     }
 }
 @media (max-width:578px) {
@@ -441,6 +476,18 @@ footer {
     .social-links {
         order: 2;
     }
+    .modal-header {
+        margin-bottom: 15px;
+    }
+    .modal-body {
+        margin-bottom: 15px;
+    }
+    .food-counter {
+        margin: 0 50px;
+    }
+    .footer-buttons {
+        align-items: initial;
+    }
 }
 @media (max-width: 480px) {
     .button-text {
@@ -454,6 +501,10 @@ footer {
     }
     .section-heading {
         flex-wrap: wrap;
+        display: inherit;
+    }
+    .input-search {
+        width: 100%;
     }
     .footer-block {
         flex-wrap: wrap;
@@ -468,5 +519,39 @@ footer {
         margin-bottom: 20px;
         text-align: center;
         align-items: center;
+    }
+}
+@media (max-width: 414px) {
+    .promo {
+        margin-bottom: 10px;
+    }
+    .food-counter {
+        margin: 0 98px;
+    }
+    .modal-footer {
+        margin: 0 25px;
+    }
+}
+@media (max-width: 375px) {
+    .food-counter {
+        margin: 0 80px;
+    }
+    .modal-footer {
+        margin-left: 4px;
+    }
+}
+@media (max-width: 320px) {
+    .modal-pricetag {
+        padding: 9px;
+        display: none;
+    }
+     .input-search {
+        width: 285px;
+    }
+    .food-counter {
+        margin: 0 54px;
+    }
+    .modal-footer {
+        margin-left: -23px;
     }
 }
