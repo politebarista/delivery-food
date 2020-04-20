@@ -537,7 +537,7 @@ footer {
         margin: 0 80px;
     }
     .modal-footer {
-        margin-left: 4px;
+        margin-left: -4px;
     }
 }
 @media (max-width: 320px) {

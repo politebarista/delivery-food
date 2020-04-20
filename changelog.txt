@@ -4,6 +4,10 @@
 -Added animations to accessible pages
 -Added shop-basket to accessible pages
 
-0.1.2  \\ Current Version
+0.1.2
 -Basket adapted for devices
 -Minor design changes
+
+0.1.3  \\ Current Version
+-Improved animations
+-Updated some items
